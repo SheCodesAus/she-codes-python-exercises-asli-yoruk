@@ -54,7 +54,9 @@ name = "Asli"
 # print(name * run2_dist)
 
 #Typecast to change the data type
-print(name * int(run4_dist))
+# print(name * int(run4_dist))
 # print(name / run1_dist)
+
+
 
 
