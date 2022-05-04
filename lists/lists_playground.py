@@ -54,7 +54,7 @@ print(asli[1][1])
 # chilli_wishlist[1] = 'carrot'
 # print(chilli_wishlist)
 
-# chilli_wishlist = ['igloo', 'chicken', 'donut toy', 'cardboard box']
+chilli_wishlist = ['igloo', 'chicken', 'donut toy', 'cardboard box']
 #Print the sublist of items positions 2 through to 3.
 # print(chilli_wishlist[2:4])
 #Print the item in the -3 position.
