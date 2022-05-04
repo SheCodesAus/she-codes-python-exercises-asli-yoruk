@@ -59,9 +59,7 @@ counter = 10
 #     print(counter)
 #     counter = counter + 1
     
-# number = int(input("Enter "))
-# for i in range(1, number+1):
-#     print(f"{number} * {i} = {number*i}")
+# Exercise Question Sample Answer
 number = int(input("Enter a number: "))
 
 for i in range(1, number+1):
