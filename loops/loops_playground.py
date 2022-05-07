@@ -25,11 +25,12 @@ numbers = [10,20,30,40]
 # for num in range(0,13,2):
 #     print(num)
 
-# chilli_wishlist = ["igloo", "chicken", "donut toy", "carboard box"]
+chilli_wishlist = ["igloo", "chicken", "donut toy", "carboard box"]
 # for item in range(len(chilli_wishlist)): # range(4)
 #     print(chilli_wishlist[item]) #chilli_wishlist[2]
-# for item in chilli_wishlist: 
-#     print(item)
+for item in chilli_wishlist: 
+    print(item)
+    print(chilli_wishlist[0])
 
 chilli_wishlist = [
     ["igloo"],
@@ -60,7 +61,7 @@ counter = 10
 #     counter = counter + 1
     
 # Exercise Question Sample Answer
-number = int(input("Enter a number: "))
+# number = int(input("Enter a number: "))
 
-for i in range(1, number+1):
-    print(f"{number} * {i} = {number * i}")
+# for i in range(1, number+1):
+#     print(f"{number} * {i} = {number * i}")
