@@ -20,8 +20,8 @@ with open("csv_files/2016_pilbara.csv", encoding="utf-8") as csv_file:
 
 print(population)
 
-for age_group in population: #age_group = ['0-4 years', '4711']
-    print(f"{age_group[0]} {age_group[1]}")
+# for age_group in population: #age_group = ['0-4 years', '4711']
+#     print(f"{age_group[0]} {age_group[1]}")
 
 # writing a csv file 
 with open("population.csv", mode="w", encoding="utf-8") as csv_file:
