@@ -56,12 +56,32 @@ def convert_cm_to_in(length_cm):
 length_in_cm = 20
 # print(convert_cm_to_in(length_in_cm))
 
-def calculate_mean(x, y):
-    total = x + y
-    mean = total / 2
-    return mean
+def calculate_mean(x, y): # x=1 y=2
+    print(x)
 
-#print(calculate_mean(3, 4))
+
+calculate_mean(1,2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # total = x + y
+    # mean = total / 2
+    # return mean
+
+# number1 = 3
+# number2 = 4
+# print(calculate_mean(number1,number2))
+# print(calculate_mean(3, 4))
 
 def camila():
     pass

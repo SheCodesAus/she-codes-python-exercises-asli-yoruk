@@ -14,18 +14,19 @@ import os
 population = []
 
 with open("csv_files/2016_pilbara.csv", encoding="utf-8") as csv_file:
-    reader = csv.reader(csv_file)
-    for line in reader:
-        population.append(line)
+    reader = csv.reader(csv_file) # create a reader or writer object
+    for row in reader: #for each row create an empty list
+        #seperates elements based on the delimiter that has been given
+        # population.append(line)
 
-print(population)
+# print(population)
 
 # for age_group in population: #age_group = ['0-4 years', '4711']
 #     print(f"{age_group[0]} {age_group[1]}")
 
 # writing a csv file 
-with open("population.csv", mode="w", encoding="utf-8") as csv_file:
-    csv_writer = csv.writer(csv_file, delimiter=",")
+# with open("population.csv", mode="w", encoding="utf-8") as csv_file:
+#     csv_writer = csv.writer(csv_file, delimiter=",")
 
-    for age_group in population: #age_group -> ['0-4 years', '4711']
-        csv_writer.writerow([age_group[1], age_group[0]]) #4711, 0-4 years
+#     for age_group in population: #age_group -> ['0-4 years', '4711']
+#         csv_writer.writerow([age_group[1], age_group[0]]) #4711, 0-4 years
